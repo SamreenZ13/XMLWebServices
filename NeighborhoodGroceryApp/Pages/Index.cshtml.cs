@@ -5,7 +5,9 @@ using System.Net;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using NeighborhoodGroceryApp.Models;
+using GroceryStore;
+using Housing;
+
 
 namespace NeighborhoodGroceryApp.Pages
 {
@@ -18,7 +20,6 @@ namespace NeighborhoodGroceryApp.Pages
 
 
             string groceryJson = GetData("https://data.cityofchicago.org/resource/ce29-twzt.json");
-            //var v = JsonConvert.DeserializeObject<GroceryStoreModel[]>(groceryJson);
             GroceryStoreModel[] groceryData = GroceryStoreModel.FromJson(groceryJson);
 
 
