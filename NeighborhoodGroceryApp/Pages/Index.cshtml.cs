@@ -13,8 +13,9 @@ namespace NeighborhoodGroceryApp.Pages
 {
     public class IndexModel : PageModel
     {
-        public void OnGet()
+        public void OnGet(string communityAreaName)
         {
+           
             //calling the GetData method and passing the Housing JSON URL
             string housingJson = GetData("https://data.cityofchicago.org/resource/s6ha-ppgi.json");
             HousingModel[] housingData = HousingModel.FromJson(housingJson);
@@ -22,6 +23,12 @@ namespace NeighborhoodGroceryApp.Pages
             //calling the GetData method and passing the Grocery JSON URL
             string groceryJson = GetData("https://data.cityofchicago.org/resource/ce29-twzt.json");
             GroceryStoreModel[] groceryData = GroceryStoreModel.FromJson(groceryJson);
+
+            housingData = housingData.Where(i => i.CommunityArea.Equals(communityAreaName, StringComparison.CurrentCultureIgnoreCase)).ToArray();
+            groceryData = groceryData.Where(i => i.CommunityAreaName.Equals(communityAreaName, StringComparison.CurrentCultureIgnoreCase)).ToArray();
+            ViewData["HousingDetails"] = housingData;
+
+            ViewData["groceryStoreDetails"] = groceryData;
 
 
         }
