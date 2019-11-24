@@ -60,3 +60,33 @@ C:\Users\Rekha Raj\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\obj\Debug\
 C:\Users\Rekha Raj\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.dll
 C:\Users\Rekha Raj\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.pdb
 C:\Users\Rekha Raj\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.csproj.CopyComplete
+D:\Web_Development\GitHub\CodeReview\NeighborhoodGroceryApp\bin\Debug\netcoreapp2.2\NeighborhoodGroceryApp.deps.json
+D:\Web_Development\GitHub\CodeReview\NeighborhoodGroceryApp\bin\Debug\netcoreapp2.2\NeighborhoodGroceryApp.runtimeconfig.json
+D:\Web_Development\GitHub\CodeReview\NeighborhoodGroceryApp\bin\Debug\netcoreapp2.2\NeighborhoodGroceryApp.runtimeconfig.dev.json
+D:\Web_Development\GitHub\CodeReview\NeighborhoodGroceryApp\bin\Debug\netcoreapp2.2\NeighborhoodGroceryApp.dll
+D:\Web_Development\GitHub\CodeReview\NeighborhoodGroceryApp\bin\Debug\netcoreapp2.2\NeighborhoodGroceryApp.pdb
+D:\Web_Development\GitHub\CodeReview\NeighborhoodGroceryApp\bin\Debug\netcoreapp2.2\NeighborhoodGroceryApp.Views.dll
+D:\Web_Development\GitHub\CodeReview\NeighborhoodGroceryApp\bin\Debug\netcoreapp2.2\NeighborhoodGroceryApp.Views.pdb
+D:\Web_Development\GitHub\CodeReview\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.csprojAssemblyReference.cache
+D:\Web_Development\GitHub\CodeReview\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.csproj.CoreCompileInputs.cache
+D:\Web_Development\GitHub\CodeReview\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.RazorAssemblyInfo.cache
+D:\Web_Development\GitHub\CodeReview\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.RazorAssemblyInfo.cs
+D:\Web_Development\GitHub\CodeReview\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.AssemblyInfoInputs.cache
+D:\Web_Development\GitHub\CodeReview\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.AssemblyInfo.cs
+D:\Web_Development\GitHub\CodeReview\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.TagHelpers.input.cache
+D:\Web_Development\GitHub\CodeReview\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.TagHelpers.output.cache
+D:\Web_Development\GitHub\CodeReview\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.RazorCoreGenerate.cache
+D:\Web_Development\GitHub\CodeReview\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\Razor\Pages\Error.g.cshtml.cs
+D:\Web_Development\GitHub\CodeReview\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\Razor\Pages\Index.g.cshtml.cs
+D:\Web_Development\GitHub\CodeReview\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\Razor\Pages\Privacy.g.cshtml.cs
+D:\Web_Development\GitHub\CodeReview\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\Razor\Pages\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\Web_Development\GitHub\CodeReview\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\Razor\Pages\Shared\_Layout.g.cshtml.cs
+D:\Web_Development\GitHub\CodeReview\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\Razor\Pages\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\Web_Development\GitHub\CodeReview\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\Razor\Pages\_ViewImports.g.cshtml.cs
+D:\Web_Development\GitHub\CodeReview\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\Razor\Pages\_ViewStart.g.cshtml.cs
+D:\Web_Development\GitHub\CodeReview\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.RazorTargetAssemblyInfo.cache
+D:\Web_Development\GitHub\CodeReview\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.RazorTargetAssemblyInfo.cs
+D:\Web_Development\GitHub\CodeReview\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.Views.pdb
+D:\Web_Development\GitHub\CodeReview\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.dll
+D:\Web_Development\GitHub\CodeReview\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.pdb
+D:\Web_Development\GitHub\CodeReview\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.csproj.CopyComplete

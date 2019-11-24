@@ -7,7 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using GroceryStore;
 using Housing;
-
+using Newtonsoft.Json.Schema;
+using Newtonsoft.Json.Linq;
 
 namespace NeighborhoodGroceryApp.Pages
 {
@@ -23,24 +24,38 @@ namespace NeighborhoodGroceryApp.Pages
             //calling the GetData method and passing the Grocery JSON URL
             string groceryJson = GetData("https://data.cityofchicago.org/resource/ce29-twzt.json");
             GroceryStoreModel[] groceryData = GroceryStoreModel.FromJson(groceryJson);
+            JSchema schema = JSchema.Parse(System.IO.File.ReadAllText("GrocerySchema.json"));
+            JArray jsonArray = JArray.Parse(groceryJson);
+            IList<string> validationEvents = new List<string>();
 
-            housingData = housingData.Where(i => i.CommunityArea.Equals(communityAreaName, StringComparison.CurrentCultureIgnoreCase)).ToArray();
-            groceryData = groceryData.Where(i => i.CommunityAreaName.Equals(communityAreaName, StringComparison.CurrentCultureIgnoreCase)).ToArray();
-            ViewData["HousingDetails"] = housingData;
+            // Validating the DownloadedJson String with the Schema
+            if (jsonArray.IsValid(schema, out validationEvents))
+            {
+                housingData = housingData.Where(i => i.CommunityArea.Equals(communityAreaName, StringComparison.CurrentCultureIgnoreCase)).ToArray();
+                groceryData = groceryData.Where(i => i.CommunityAreaName.Equals(communityAreaName, StringComparison.CurrentCultureIgnoreCase)).ToArray();
 
-            ViewData["groceryStoreDetails"] = groceryData;
+                ViewData["HousingDetails"] = housingData;
 
+                ViewData["groceryStoreDetails"] = groceryData;
 
+            }
+            else
+            {
+                foreach(string evt in validationEvents)
+                {
+                    Console.WriteLine(evt);
+                }
+            }
         }
+
         //GetData method is created to read the data from two JSONs. A single method, so that it can be used.
         public string GetData(string endpoint)
         {
-            string downloadedData = "";
             using (WebClient webClient = new WebClient())
             {
-                downloadedData = webClient.DownloadString(endpoint);
+                return webClient.DownloadString(endpoint);
             }
-            return downloadedData;
+
         }
     }
 }
