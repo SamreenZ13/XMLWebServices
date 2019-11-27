@@ -13,9 +13,13 @@ namespace NeighborhoodGroceryApp.Pages
 {
     public class IndexModel : PageModel
     {
-        public void OnGet(string communityAreaName)
+        [BindProperty]
+        public string CommunityName { get; set; }
+        public ActionResult OnGet(string communityAreaName)
         {
-           
+            if (string.IsNullOrEmpty(communityAreaName))
+                return Page();
+
             //calling the GetData method and passing the Housing JSON URL
             string housingJson = GetData("https://data.cityofchicago.org/resource/s6ha-ppgi.json");
             HousingModel[] housingData = HousingModel.FromJson(housingJson);
@@ -29,7 +33,7 @@ namespace NeighborhoodGroceryApp.Pages
             ViewData["HousingDetails"] = housingData;
 
             ViewData["groceryStoreDetails"] = groceryData;
-
+            return Page();
 
         }
         //GetData method is created to read the data from two JSONs. A single method, so that it can be used.

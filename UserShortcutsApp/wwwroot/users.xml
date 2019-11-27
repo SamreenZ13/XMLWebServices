@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-stylesheet type="text/xsl" href="user.xsl"?>
+<users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="uservalidation.xsd">
+<user>
+<firstname>Samreen</firstname>
+<lastname>Zehra</lastname>
+<bearcatid>M123456</bearcatid>
+<favoriteshortcut>ctrl+C</favoriteshortcut>
+</user>
+<user>
+<firstname>Subroto</firstname>
+<lastname>Biswas</lastname>
+<bearcatid>M987654</bearcatid>
+<favoriteshortcut>ctrl+v</favoriteshortcut>
+</user>
+<user>
+<firstname>Mark</firstname>
+<lastname>Anthony</lastname>
+<bearcatid>M123451</bearcatid>
+<favoriteshortcut>ctrl+K+C</favoriteshortcut>
+</user>
+  <user>
+    <firstname>Julius</firstname>
+    <lastname>Ceaser</lastname>
+    <bearcatid>M123234</bearcatid>
+    <favoriteshortcut>Shift+Delete</favoriteshortcut>
+  </user>
+  <user>
+    <firstname>Joshua</firstname>
+    <lastname>Woods</lastname>
+    <bearcatid>M123457</bearcatid>
+    <favoriteshortcut>ctrl+K+U</favoriteshortcut>
+  </user>
+</users>   

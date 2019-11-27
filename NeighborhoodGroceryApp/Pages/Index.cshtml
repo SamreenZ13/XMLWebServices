@@ -1,10 +1,69 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
-}
+    ViewData["Title"] = "Welcome Page";
+    List<Housing.HousingModel> housingModelList = (List<Housing.HousingModel>)ViewData["HousingDetails"];
+    List<GroceryStore.GroceryStoreModel> groceryModelList = (List<GroceryStore.GroceryStoreModel>)ViewData["groceryStoreDetails"];
 
-<div class="text-center">
+}
+<div class="text-center table-responsive">
     <h1 class="display-4">Neighborhood Grocery App</h1>
-    <p>Development is in progress</p>
+    <hr />
+    <p class="align-content-center">
+        Planning to buy a house in Chicago? Want to know the best neighborhood where grocery stores are available nearby for daily routine.
+        We are here to help you out.
+        Just search for a given community area and we will show you all the neighboring housing details and grocery stores.
+    </p>
+    <hr />
+    <form method="get" class="text-center">
+        <div>
+            <label> Enter the Community Area to search:  </label>
+            <input asp-for="CommunityName" />
+            <small id="note" class="form-text text-muted"> Example : </small>
+        </div>
+        <div>
+            <button type="submit" value="Submit" class="btn-primary"> Submit</button>
+        </div>
+    </form>
+    <br />
+    <br />
+
+    <table class="table table-bordered table-hover">
+        <thead class="badge-dark text-center text-light">
+            <tr><th colspan="6"> Housing Details </th></tr>
+            <tr><th colspan="2">Community Area Name</th><th>Community</th><th>Store</th><th>Location</th><th>Zip</th></tr>
+        </thead>
+        <tbody>
+            @foreach (var data in housingModelList)
+            {
+                <tr>
+                    <td colspan="2">@data.CommunityArea </td>
+                    <td>@data.CommunityAreaNumber </td>
+                    <td>@data.PropertName</td>
+                    <td>@data.Units</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <br />
+    <hr />
+    <br />
+    <table class="table table-bordered table-hover">
+        <thead class="badge-dark text-center text-light">
+            <tr><th colspan="6">Grocery Stores</th></tr>
+            <tr><th colspan="2">Community Area Name</th><th> Store Name</th><th>Zip Code</th><th colspan="2">License ID</th></tr>
+        </thead>
+        <tbody>
+            @foreach (var data in groceryModelList)
+            {
+                <tr>
+                    <td colspan="2">@data.CommunityAreaName </td>
+                    <td>@data.StoreName </td>
+                    <td>@data.ZipCode</td>
+                    <td>@data.LicenseId</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
 </div>

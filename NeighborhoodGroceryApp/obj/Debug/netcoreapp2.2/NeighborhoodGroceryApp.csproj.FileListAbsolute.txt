@@ -60,3 +60,35 @@ C:\Users\Rekha Raj\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\obj\Debug\
 C:\Users\Rekha Raj\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.dll
 C:\Users\Rekha Raj\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.pdb
 C:\Users\Rekha Raj\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.csproj.CopyComplete
+C:\Users\szsam\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\szsam\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\szsam\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\szsam\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\bin\Debug\netcoreapp2.2\NeighborhoodGroceryApp.deps.json
+C:\Users\szsam\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\bin\Debug\netcoreapp2.2\NeighborhoodGroceryApp.runtimeconfig.json
+C:\Users\szsam\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\bin\Debug\netcoreapp2.2\NeighborhoodGroceryApp.runtimeconfig.dev.json
+C:\Users\szsam\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\bin\Debug\netcoreapp2.2\NeighborhoodGroceryApp.dll
+C:\Users\szsam\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\bin\Debug\netcoreapp2.2\NeighborhoodGroceryApp.pdb
+C:\Users\szsam\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\bin\Debug\netcoreapp2.2\NeighborhoodGroceryApp.Views.dll
+C:\Users\szsam\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\bin\Debug\netcoreapp2.2\NeighborhoodGroceryApp.Views.pdb
+C:\Users\szsam\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.csprojAssemblyReference.cache
+C:\Users\szsam\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.RazorAssemblyInfo.cache
+C:\Users\szsam\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.RazorAssemblyInfo.cs
+C:\Users\szsam\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.AssemblyInfoInputs.cache
+C:\Users\szsam\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.AssemblyInfo.cs
+C:\Users\szsam\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.TagHelpers.input.cache
+C:\Users\szsam\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.TagHelpers.output.cache
+C:\Users\szsam\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.RazorCoreGenerate.cache
+C:\Users\szsam\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\Razor\Pages\Error.cshtml.g.cs
+C:\Users\szsam\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\Razor\Pages\Index.cshtml.g.cs
+C:\Users\szsam\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\szsam\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\Razor\Pages\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\szsam\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\szsam\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\szsam\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\szsam\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\szsam\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.RazorTargetAssemblyInfo.cache
+C:\Users\szsam\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.RazorTargetAssemblyInfo.cs
+C:\Users\szsam\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.Views.pdb
+C:\Users\szsam\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.dll
+C:\Users\szsam\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.pdb
+C:\Users\szsam\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.csproj.CopyComplete

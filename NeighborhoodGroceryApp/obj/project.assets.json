@@ -12083,11 +12083,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\szsam\\source\\repos\\SamreenZ13\\XMLWebServices\\NeighborhoodGroceryApp\\NeighborhoodGroceryApp.csproj",
+      "projectUniqueName": "C:\\Users\\szsam\\Source\\Repos\\XMLWebServices\\NeighborhoodGroceryApp\\NeighborhoodGroceryApp.csproj",
       "projectName": "NeighborhoodGroceryApp",
-      "projectPath": "C:\\Users\\szsam\\source\\repos\\SamreenZ13\\XMLWebServices\\NeighborhoodGroceryApp\\NeighborhoodGroceryApp.csproj",
+      "projectPath": "C:\\Users\\szsam\\Source\\Repos\\XMLWebServices\\NeighborhoodGroceryApp\\NeighborhoodGroceryApp.csproj",
       "packagesPath": "C:\\Users\\szsam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\szsam\\source\\repos\\SamreenZ13\\XMLWebServices\\NeighborhoodGroceryApp\\obj\\",
+      "outputPath": "C:\\Users\\szsam\\Source\\Repos\\XMLWebServices\\NeighborhoodGroceryApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
