@@ -8,8 +8,8 @@
 <favoriteshortcut>ctrl+C</favoriteshortcut>
 </user>
 <user>
-<firstname>Subroto</firstname>
-<lastname>Biswas</lastname>
+<firstname>Niharika</firstname>
+<lastname>Gupta</lastname>
 <bearcatid>M987654</bearcatid>
 <favoriteshortcut>ctrl+v</favoriteshortcut>
 </user>
@@ -30,5 +30,23 @@
     <lastname>Woods</lastname>
     <bearcatid>M123457</bearcatid>
     <favoriteshortcut>ctrl+K+U</favoriteshortcut>
+  </user>
+  <user>
+    <firstname>Sayak</firstname>
+    <lastname>Chakraborty</lastname>
+    <bearcatid>M126549</bearcatid>
+    <favoriteshortcut>ctrl+Alt+delete</favoriteshortcut>
+  </user>
+  <user>
+    <firstname>Akarsh</firstname>
+    <lastname>Gupta</lastname>
+    <bearcatid>M123457</bearcatid>
+    <favoriteshortcut>ctrl+K+U</favoriteshortcut>
+  </user>
+  <user>
+    <firstname>Sarah</firstname>
+    <lastname>Connor</lastname>
+    <bearcatid>M134672</bearcatid>
+    <favoriteshortcut>ctrl+K+D</favoriteshortcut>
   </user>
 </users>   

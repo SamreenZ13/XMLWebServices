@@ -6,7 +6,7 @@
         <title>My Shortcuts </title>
       </head>
       <body>
-        <h1>User favorite Shortcuts</h1>
+        <h1>My Team's favorite Shortcuts</h1>
         <br/>
         <div>
           <table border="1" width="100%">

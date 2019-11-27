@@ -14,7 +14,7 @@
     <script>
         $(function () {
             $("#Combined_Name").autocomplete({
-                source: "/AutoCompleteStudents",
+                source: "/AutoCompleteCity",
                 minLength: 3
             });
         });
@@ -34,14 +34,30 @@
     </style>
 </head>
 
-<body style="font-family:sans-serif; font-size:.90em">
-    <header>
-        <h1><span style="font-family:'Times New Roman';">Jaipur</span></h1>
+<body style="font-family:sans-serif; font-size:14px;">
+    <div class="row noprint" id="content" style="padding-left:4em;">
+        <em>Note: Please enter city name to view their wiki pages</em>
+        <form action="https://www.wikipedia.org/" method="get">
+
+
+            <label for="Combined_Name">City Name</label>
+            <input name="Combined_Name" type="text" placeholder="Enter City Name" id="Combined_Name" />
+            <input type="submit" value="Submit" />
+            <br />
+            <br />
+            <br />
+
+        </form>
+
+    </div>
+    <header style="padding-left:4em;">
+        <h1 class="headerfont">Jaipur</h1>
         <hr />
         <small>Original wikipedia link: <a href="https://en.wikipedia.org/wiki/Jaipur" target="_blank">Jaipur</a></small>
     </header>
     <br />
-    <div style="width:100%; overflow: hidden;">
+
+    <div style="width:100%; overflow: hidden;padding-left:4em;">
         <div style="width: 980px; float: left;">
             <p>
                 <strong>Jaipur</strong> (/ˈdʒaɪpʊər/ (About this soundlisten))[6][7][8] is the capital and the largest city of the Indian state of <a href="https://en.wikipedia.org/wiki/Rajasthan" target="_blank">Rajasthan</a>. As of 2011, the city had a population of 3.1 million, making it the tenth most populous city in the country. Jaipur is also known as the Pink City, due to the dominant color scheme of its buildings.[9] It is located 268 km (167 miles) from the national capital New Delhi.
@@ -80,15 +96,15 @@
             </div>
             <br />
             <section>
-                <h3><span style="font-family:'Times New Roman';"> History</span></h3>
+                <h2 class="headerfont">> History</h2>
                 <hr />
                 <em>Main article: History of Jaipur</em>
 
             </section>
             <div style="width:100%;  overflow: hidden;">
-                <div style="width: 280px; float: left;">
+                <div style="width: 280px; float: left;" class="noprint">
                     <figure>
-                        <img height="300" width="240" src="/Images/SawaiJaiSingh.jpg" />
+                        <img height="300" width="240" src="/Images/SawaiJaiSingh.jpg" alt="SawaiJaiSingh"/>
 
                         <figcaption>Jai Singh II, founder of Jaipur</figcaption>
                     </figure>
@@ -109,9 +125,9 @@
                 </div>
             </div>
             <section>
-                <h3><span style="font-family:'Times New Roman';"> Geography</span></h3>
+                <h2 class="headerfont"> Geography</h2>
                 <hr />
-                <h6><strong>Climate</strong></h6>
+                <h2><strong>Climate</strong></h2>
 
             </section>
             <div style="overflow:hidden;">
@@ -119,7 +135,7 @@
 
             </div>
             <section>
-                <h3><span style="font-family:'Times New Roman';"> Demographics</span></h3>
+                <h2 class="headerfont"> Demographics</h2>
                 <hr />
 
 
@@ -131,13 +147,13 @@
                 <div style="margin-left: 1000px;">
                     <figure>
                         <img height="150" width="300" src="/Images/Demographics.png" alt="Demographics" />
-                        
+
 
                     </figure>
                 </div>
             </div>
             <section>
-                <h3><span style="font-family:'Times New Roman';"> Tourism</span></h3>
+                <h2 class="headerfont"> Tourism</h2>
                 <hr />
 
             </section>
@@ -158,7 +174,7 @@
                     <tr>
                         <td>
                             <figure>
-                                <img height="150" width="300" src="/Images/AmberFort.jpg" alt="amberFort"/>
+                                <img height="150" width="300" src="/Images/AmberFort.jpg" alt="amberFort" />
                                 <figcaption>Amber Fort</figcaption>
 
 
@@ -174,7 +190,7 @@
                         </td>
                         <td>
                             <figure>
-                                <img height="150" width="300" src="/Images/Hawa_Mahal_Final_1.jpg" alt="Hawa_Mahal_Final_1"/>
+                                <img height="150" width="300" src="/Images/Hawa_Mahal_Final_1.jpg" alt="Hawa_Mahal_Final_1" />
                                 <figcaption>Hawa Mahal</figcaption>
 
 
@@ -182,7 +198,7 @@
                         </td>
                         <td>
                             <figure>
-                                <img height="150" width="300" src="/Images/jaigarhFort.jpg" alt="jaigarhFort"/>
+                                <img height="150" width="300" src="/Images/jaigarhFort.jpg" alt="jaigarhFort" />
                                 <figcaption>Jaigarh Fort</figcaption>
 
 
@@ -190,7 +206,7 @@
                         </td>
 
                     </tr>
-                   
+
                 </tbody>
             </table>
         </div>
@@ -210,7 +226,7 @@
                                 <tr>
                                     <td>
                                         <figure>
-                                            <img height="500" width="300" src="/Images/Jaipur_Montage.png" alt="Jaipur_Montage"/>
+                                            <img height="500" width="300" src="/Images/Jaipur_Montage.png" alt="Jaipur_Montage" />
 
                                             <figcaption>Clockwise from top: Jal Mahal, Birla Mandir, Jaipur, Albert Hall Museum, Hawa Mahal, Jantar Mantar</figcaption>
                                         </figure>
