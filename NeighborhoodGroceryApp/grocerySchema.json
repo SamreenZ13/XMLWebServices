@@ -1,0 +1,124 @@
+﻿{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "array",
+  "items": {
+    "$ref": "#/definitions/WelcomeElement"
+  },
+  "definitions": {
+    "WelcomeElement": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        ":@computed_region_43wa_7qmu": {
+          "type": "string",
+          "format": "integer"
+        },
+        "zip_code": {
+          "type": "string",
+          "format": "integer"
+        },
+        "buffer_size": {
+          "type": "string"
+        },
+        "license_id": {
+          "type": "string",
+          "format": "integer"
+        },
+        "location": {
+          "$ref": "#/definitions/Location"
+        },
+        "census_tract": {
+          "type": "string"
+        },
+        "address": {
+          "type": "string"
+        },
+        "y_coordinate": {
+          "type": "string"
+        },
+        "store_name": {
+          "type": "string"
+        },
+        "community_area_name": {
+          "type": "string"
+        },
+        ":@computed_region_rpca_8um6": {
+          "type": "string",
+          "format": "integer"
+        },
+        "latitude": {
+          "type": "string"
+        },
+        ":@computed_region_awaf_s7ux": {
+          "type": "string",
+          "format": "integer"
+        },
+        "community_area": {
+          "type": "string",
+          "format": "integer"
+        },
+        "x_coordinate": {
+          "type": "string"
+        },
+        "ward": {
+          "type": "string",
+          "format": "integer"
+        },
+        "longitude": {
+          "type": "string"
+        },
+        ":@computed_region_bdys_3d7i": {
+          "type": "string",
+          "format": "integer"
+        },
+        ":@computed_region_6mkv_f3dw": {
+          "type": "string",
+          "format": "integer"
+        },
+        "census_block": {
+          "type": "string"
+        },
+        "account_number": {
+          "type": "string",
+          "format": "integer"
+        },
+        ":@computed_region_vrxf_vc4k": {
+          "type": "string",
+          "format": "integer"
+        },
+        "square_feet": {
+          "type": "string",
+          "format": "integer"
+        }
+      },
+      "required": [
+
+        "community_area",
+        "community_area_name",
+
+      ],
+      "title": "WelcomeElement"
+    },
+    "Location": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "latitude": {
+          "type": "string"
+        },
+        "needs_recoding": {
+          "type": "boolean"
+        },
+        "longitude": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "latitude",
+        "longitude",
+        "needs_recoding"
+      ],
+      "title": "Location"
+    }
+  }
+}

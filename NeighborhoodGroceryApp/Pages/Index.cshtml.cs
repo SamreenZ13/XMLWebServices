@@ -7,7 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using GroceryStore;
 using Housing;
-
+using Newtonsoft.Json.Schema;
+using Newtonsoft.Json.Linq;
 
 namespace NeighborhoodGroceryApp.Pages
 {
@@ -29,12 +30,31 @@ namespace NeighborhoodGroceryApp.Pages
             //calling the GetData method and passing the Grocery JSON URL
             string groceryJson = GetData("https://data.cityofchicago.org/resource/ce29-twzt.json");
             GroceryStoreModel[] groceryData = GroceryStoreModel.FromJson(groceryJson);
+            JSchema schema = JSchema.Parse(System.IO.File.ReadAllText("GrocerySchema.json"));
+            JArray jsonArray = JArray.Parse(groceryJson);
+            IList<string> validationEvents = new List<string>();
 
-            housingData = housingData.Where(i => i.CommunityArea.Equals(CommunityName, StringComparison.CurrentCultureIgnoreCase)).ToArray();
-            groceryData = groceryData.Where(i => i.CommunityAreaName.Equals(CommunityName, StringComparison.CurrentCultureIgnoreCase)).ToArray();
-            ViewData["HousingDetails"] = housingData.ToList();
+            // Validating the DownloadedJson String with the Schema
+            if (jsonArray.IsValid(schema, out validationEvents))
+            {
+                housingData = housingData.Where(i => i.CommunityArea.Equals(CommunityName, StringComparison.CurrentCultureIgnoreCase)).ToArray();
+                groceryData = groceryData.Where(i => i.CommunityAreaName.Equals(CommunityName, StringComparison.CurrentCultureIgnoreCase)).ToArray();
 
-            ViewData["groceryStoreDetails"] = groceryData.ToList();
+                ViewData["HousingDetails"] = housingData.ToList();
+
+                ViewData["groceryStoreDetails"] = groceryData.ToList();
+
+            }
+            else
+            {
+                foreach (string evt in validationEvents)
+                {
+                    Console.WriteLine(evt);
+                }
+                ViewData["ErrorDetails"] = validationEvents;
+            }
+        
+            
             return Page();
 
         }

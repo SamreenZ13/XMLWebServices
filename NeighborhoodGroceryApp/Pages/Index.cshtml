@@ -4,6 +4,7 @@
     ViewData["Title"] = "Welcome Page";
     var housingModelList = ViewData["HousingDetails"] != null ? (List<Housing.HousingModel>)ViewData["HousingDetails"] : new List<Housing.HousingModel>();
     var groceryModelList = ViewData["groceryStoreDetails"] != null ? (List<GroceryStore.GroceryStoreModel>)ViewData["groceryStoreDetails"] : new List<GroceryStore.GroceryStoreModel>();
+    var error = ViewData["ErrorDetails"] != null ? (List<string>)ViewData["ErrorDetails"] : new List<string>();
 
 }
 
@@ -53,7 +54,16 @@
     </form>
     <br />
     <br />
-
+    @if (error.Count > 0)
+    {
+        <div class="bg-warning">
+            <ul>
+                @foreach (var e in error)
+                {
+                    <li>@e</li>
+                }
+            </ul>
+        </div>}
     <table class="table table-bordered table-hover">
         <thead class="badge-dark text-center text-light">
             <tr><th colspan="6"> Housing Details </th></tr>
