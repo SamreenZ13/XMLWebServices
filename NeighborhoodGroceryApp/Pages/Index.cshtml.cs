@@ -15,11 +15,9 @@ namespace NeighborhoodGroceryApp.Pages
     {
         [BindProperty]
         public string CommunityName { get; set; }
-
-
-        public ActionResult OnGet(string CommunityName)
+        public ActionResult OnGet(string communityAreaName)
         {
-            if (string.IsNullOrEmpty(CommunityName))
+            if (string.IsNullOrEmpty(communityAreaName))
                 return Page();
 
             //calling the GetData method and passing the Housing JSON URL
@@ -30,11 +28,11 @@ namespace NeighborhoodGroceryApp.Pages
             string groceryJson = GetData("https://data.cityofchicago.org/resource/ce29-twzt.json");
             GroceryStoreModel[] groceryData = GroceryStoreModel.FromJson(groceryJson);
 
-            housingData = housingData.Where(i => i.CommunityArea.Equals(CommunityName, StringComparison.CurrentCultureIgnoreCase)).ToArray();
-            groceryData = groceryData.Where(i => i.CommunityAreaName.Equals(CommunityName, StringComparison.CurrentCultureIgnoreCase)).ToArray();
-            ViewData["HousingDetails"] = housingData.ToList();
+            housingData = housingData.Where(i => i.CommunityArea.Equals(communityAreaName, StringComparison.CurrentCultureIgnoreCase)).ToArray();
+            groceryData = groceryData.Where(i => i.CommunityAreaName.Equals(communityAreaName, StringComparison.CurrentCultureIgnoreCase)).ToArray();
+            ViewData["HousingDetails"] = housingData;
 
-            ViewData["groceryStoreDetails"] = groceryData.ToList();
+            ViewData["groceryStoreDetails"] = groceryData;
             return Page();
 
         }
@@ -48,7 +46,5 @@ namespace NeighborhoodGroceryApp.Pages
             }
             return downloadedData;
         }
-
-      
     }
 }

@@ -2,51 +2,25 @@
 @model IndexModel
 @{
     ViewData["Title"] = "Welcome Page";
-    var housingModelList = ViewData["HousingDetails"] != null ? (List<Housing.HousingModel>)ViewData["HousingDetails"] : new List<Housing.HousingModel>();
-    var groceryModelList = ViewData["groceryStoreDetails"] != null ? (List<GroceryStore.GroceryStoreModel>)ViewData["groceryStoreDetails"] : new List<GroceryStore.GroceryStoreModel>();
+    List<Housing.HousingModel> housingModelList = (List<Housing.HousingModel>)ViewData["HousingDetails"];
+    List<GroceryStore.GroceryStoreModel> groceryModelList = (List<GroceryStore.GroceryStoreModel>)ViewData["groceryStoreDetails"];
 
 }
-
-<script>
-    $(function () {
-        $("#CommunityName").autocomplete({
-            source: "/AutoCompleteData",
-            minLength: 3
-        });
-    });
-</script>
-<style>
-    ul.ui-autocomplete {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        list-style-position: inside;
-        width: 50px;
-    }
-
-    li.ui-menu-item {
-        border: 1px solid black;
-    }
-</style>
 <div class="text-center table-responsive">
-    <h3 class="display-4">Neighborhood Grocery App</h3>
+    <h1 class="display-4">Neighborhood Grocery App</h1>
     <hr />
     <p class="align-content-center">
         Planning to buy a house in Chicago? Want to know the best neighborhood where grocery stores are available nearby for daily routine.
         We are here to help you out.
         Just search for a given community area and we will show you all the neighboring housing details and grocery stores.
     </p>
+    <hr />
     <form method="get" class="text-center">
         <div>
             <label> Enter the Community Area to search:  </label>
-            <input asp-for="CommunityName" type="text" placeholder="Enter Community Name" id="CommunityName" />
+            <input asp-for="CommunityName" />
             <small id="note" class="form-text text-muted"> Example : </small>
         </div>
-        <br />
-        <br />
-        <br />
-        <br />
-
         <div>
             <button type="submit" value="Submit" class="btn-primary"> Submit</button>
         </div>
@@ -66,7 +40,7 @@
                     <td colspan="2">@data.CommunityArea </td>
                     <td>@data.CommunityAreaNumber </td>
                     <td>@data.PropertName</td>
-                    <td>@data.ZipCode</td>
+                    <td>@data.Units</td>
                 </tr>
             }
         </tbody>
@@ -75,7 +49,7 @@
     <hr />
     <br />
     <table class="table table-bordered table-hover">
-        <thead class="bg-dark text-center text-light">
+        <thead class="badge-dark text-center text-light">
             <tr><th colspan="6">Grocery Stores</th></tr>
             <tr><th colspan="2">Community Area Name</th><th> Store Name</th><th>Zip Code</th><th colspan="2">License ID</th></tr>
         </thead>
