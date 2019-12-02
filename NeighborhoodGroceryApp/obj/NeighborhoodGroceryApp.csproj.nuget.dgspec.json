@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\OneDrive - University of Cincinnati\\GitHub\\Samreen Zehra\\XML & Web Services Final Project\\NeighborhoodGroceryApp\\NeighborhoodGroceryApp.csproj": {}
+    "C:\\Users\\szsam\\Source\\Repos\\XMLWebServices\\NeighborhoodGroceryApp\\NeighborhoodGroceryApp.csproj": {}
   },
   "projects": {
-    "D:\\OneDrive - University of Cincinnati\\GitHub\\Samreen Zehra\\XML & Web Services Final Project\\NeighborhoodGroceryApp\\NeighborhoodGroceryApp.csproj": {
+    "C:\\Users\\szsam\\Source\\Repos\\XMLWebServices\\NeighborhoodGroceryApp\\NeighborhoodGroceryApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OneDrive - University of Cincinnati\\GitHub\\Samreen Zehra\\XML & Web Services Final Project\\NeighborhoodGroceryApp\\NeighborhoodGroceryApp.csproj",
+        "projectUniqueName": "C:\\Users\\szsam\\Source\\Repos\\XMLWebServices\\NeighborhoodGroceryApp\\NeighborhoodGroceryApp.csproj",
         "projectName": "NeighborhoodGroceryApp",
-        "projectPath": "D:\\OneDrive - University of Cincinnati\\GitHub\\Samreen Zehra\\XML & Web Services Final Project\\NeighborhoodGroceryApp\\NeighborhoodGroceryApp.csproj",
-        "packagesPath": "C:\\Users\\Sayak Chakraborty\\.nuget\\packages\\",
-        "outputPath": "D:\\OneDrive - University of Cincinnati\\GitHub\\Samreen Zehra\\XML & Web Services Final Project\\NeighborhoodGroceryApp\\obj\\",
+        "projectPath": "C:\\Users\\szsam\\Source\\Repos\\XMLWebServices\\NeighborhoodGroceryApp\\NeighborhoodGroceryApp.csproj",
+        "packagesPath": "C:\\Users\\szsam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\szsam\\Source\\Repos\\XMLWebServices\\NeighborhoodGroceryApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Sayak Chakraborty\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\szsam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
