@@ -92,3 +92,5 @@ C:\Users\szsam\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\obj\Debug\netc
 C:\Users\szsam\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.dll
 C:\Users\szsam\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.pdb
 C:\Users\szsam\Source\Repos\XMLWebServices\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\NeighborhoodGroceryApp.csproj.CopyComplete
+C:\Users\szsam\source\repos\XMLWebServices\NeighborhoodGroceryApp\bin\Debug\netcoreapp2.2\grocerySchema.json
+C:\Users\szsam\source\repos\XMLWebServices\NeighborhoodGroceryApp\obj\Debug\netcoreapp2.2\Razor\Pages\AutoCompleteData.cshtml.g.cs

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\szsam\\Source\\Repos\\XMLWebServices\\NeighborhoodGroceryApp\\NeighborhoodGroceryApp.csproj": {}
+    "C:\\Users\\szsam\\source\\repos\\XMLWebServices\\NeighborhoodGroceryApp\\NeighborhoodGroceryApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\szsam\\Source\\Repos\\XMLWebServices\\NeighborhoodGroceryApp\\NeighborhoodGroceryApp.csproj": {
+    "C:\\Users\\szsam\\source\\repos\\XMLWebServices\\NeighborhoodGroceryApp\\NeighborhoodGroceryApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\szsam\\Source\\Repos\\XMLWebServices\\NeighborhoodGroceryApp\\NeighborhoodGroceryApp.csproj",
+        "projectUniqueName": "C:\\Users\\szsam\\source\\repos\\XMLWebServices\\NeighborhoodGroceryApp\\NeighborhoodGroceryApp.csproj",
         "projectName": "NeighborhoodGroceryApp",
-        "projectPath": "C:\\Users\\szsam\\Source\\Repos\\XMLWebServices\\NeighborhoodGroceryApp\\NeighborhoodGroceryApp.csproj",
+        "projectPath": "C:\\Users\\szsam\\source\\repos\\XMLWebServices\\NeighborhoodGroceryApp\\NeighborhoodGroceryApp.csproj",
         "packagesPath": "C:\\Users\\szsam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\szsam\\Source\\Repos\\XMLWebServices\\NeighborhoodGroceryApp\\obj\\",
+        "outputPath": "C:\\Users\\szsam\\source\\repos\\XMLWebServices\\NeighborhoodGroceryApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -57,6 +57,14 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Newtonsoft.Json.Schema": {
+              "target": "Package",
+              "version": "[3.0.11, )"
             }
           },
           "imports": [
