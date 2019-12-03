@@ -1,0 +1,39 @@
+﻿@page
+@model NeighborhoodGroceryApp.Pages.ArtistSongsModel
+@{
+    ViewData["Title"] = "ArtistSongs";
+    var artistList = ViewData["artistdata"] != null ? (List<NeighborhoodGroceryApp.Empty>)ViewData["artistdata"] : new List<NeighborhoodGroceryApp.Empty>();
+
+}
+
+<h1>List of artists</h1>
+
+
+@foreach (var data in artistList)
+{
+    <h5>@data.Artist</h5>
+
+    <table class="table table-bordered table-hover">
+        <thead class="badge-dark text-center text-light">
+            <tr>
+                <th>Album</th>
+                <th>Name</th>
+                <th>Duration</th>
+                <th>Popularity</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var track in data.Track)
+            {
+                <tr>
+                    <td>@track.Album.Name</td>
+                    <td>@track.Name</td>
+                    <td>@track.DurationMs</td>
+                    <td>@track.Popularity</td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+}
