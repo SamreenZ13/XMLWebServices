@@ -37,16 +37,18 @@
         We are here to help you out.
         Just search for a given community area and we will show you all the neighboring housing details and grocery stores.
     </p>
+    <hr />
+    <br />
+    <br />
+
     <form method="get" class="text-center">
         <div>
             <label> Enter the Community Area to search:  </label>
             <input asp-for="CommunityName" type="text" placeholder="Enter Community Name" id="CommunityName" />
-            <small id="note" class="form-text text-muted"> Example : </small>
+            <small id="note" class="form-text text-muted"> Example : Hyde Park, Humboldt Park, Uptown, Englewood, Near West Side </small>
         </div>
         <br />
-        <br />
-        <br />
-        <br />
+
 
         <div>
             <button type="submit" value="Submit" class="btn-primary"> Submit</button>
@@ -64,10 +66,10 @@
                 }
             </ul>
         </div>}
-    <table class="table table-bordered table-hover">
+    <table class="table table-bordered table-hover text-center">
         <thead class="badge-dark text-center text-light">
-            <tr><th colspan="6"> Housing Details </th></tr>
-            <tr><th colspan="2">Community Area Name</th><th>Community</th><th>Store</th><th>Location</th><th>Zip</th></tr>
+            <tr><th colspan="7"> Housing Details </th></tr>
+            <tr><th colspan="2">Community Area Name</th><th>Community Area Number</th><th>Property Name</th><th>Address</th><th>Zip Code</th> <th>Management Company</th></tr>
         </thead>
         <tbody>
             @foreach (var data in housingModelList)
@@ -76,7 +78,9 @@
                     <td colspan="2">@data.CommunityArea </td>
                     <td>@data.CommunityAreaNumber </td>
                     <td>@data.PropertName</td>
+                    <td>@data.Address</td>
                     <td>@data.ZipCode</td>
+                    <td>@data.ManagementCompany</td>
                 </tr>
             }
         </tbody>
@@ -86,8 +90,8 @@
     <br />
     <table class="table table-bordered table-hover">
         <thead class="bg-dark text-center text-light">
-            <tr><th colspan="6">Grocery Stores</th></tr>
-            <tr><th colspan="2">Community Area Name</th><th> Store Name</th><th>Zip Code</th><th colspan="2">License ID</th></tr>
+            <tr><th colspan="7">Grocery Stores</th></tr>
+            <tr><th colspan="2">Community Area Name</th><th> Store Name</th><th>Address</th><th>Zip Code</th> <th>Community Area Number</th> <th>LicenseId</th></tr>
         </thead>
         <tbody>
             @foreach (var data in groceryModelList)
@@ -95,11 +99,13 @@
                 <tr>
                     <td colspan="2">@data.CommunityAreaName </td>
                     <td>@data.StoreName </td>
+                    <td>@data.Address</td>
                     <td>@data.ZipCode</td>
+                    <td>@data.CommunityArea</td>
                     <td>@data.LicenseId</td>
                 </tr>
             }
         </tbody>
     </table>
 
-</div>
+</div >

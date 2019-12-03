@@ -31,25 +31,25 @@
         [JsonProperty("Community_Area")]
         public string CommunityArea { get => communityArea; set => communityArea = value; }
 
-        [JsonProperty("Community_Area_Number")]
+        [JsonProperty("community_area_number")]
         public long CommunityAreaNumber { get => communityAreaNumber; set => communityAreaNumber = value; }
 
-        [JsonProperty("Propert_Type")]
+        [JsonProperty("property_type")]
         public string PropertType { get => propertType; set => propertType = value; }
 
-        [JsonProperty("Propert_Name")]
+        [JsonProperty("property_name")]
         public string PropertName { get => propertName; set => propertName = value; }
 
-        [JsonProperty("Address")]
+        [JsonProperty("address")]
         public string Address { get => address; set => address = value; }
 
-        [JsonProperty("Zip_Code")]
+        [JsonProperty("zip_code")]
         public long ZipCode { get => zipCode; set => zipCode = value; }
 
         [JsonProperty("Phone_Number")]
         public string PhoneNumber { get => phoneNumber; set => phoneNumber = value; }
 
-        [JsonProperty("Management_Company")]
+        [JsonProperty("management_company")]
         public string ManagementCompany { get => managementCompany; set => managementCompany = value; }
 
         [JsonProperty("Units")]
